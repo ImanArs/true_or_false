@@ -1,0 +1,29 @@
+#footer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.task{
+    background: rgb(30, 24, 51);
+    justify-content: center;
+    width: 700px;
+    align-items: center;
+}
+#task {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    font-size: 20px;
+    color: #fff;
+}
+#task li:last-child {
+    margin-top: 1rem ;
+}
+/* .block, #block {
+    display: block;
+}
+.none, #none{
+    display: none;
+} */

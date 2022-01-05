@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+body{
+    height: 79vh;
+    background-image: linear-gradient(to bottom, #051937, #004770, #007c9e, #00b4b7, #12ebba);
+}
