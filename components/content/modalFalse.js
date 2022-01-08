@@ -6,7 +6,8 @@ class ModalF {
         
         const html = ` 
         <div class="container"> 
-            <div>
+            <div class="text_container">
+            <h1> Действие </h1>
             <p>${randomFalse[randomF]}</p>
             </div>
             <div>

@@ -6,7 +6,8 @@ class ModalT {
         
         const html = ` 
         <div class="container"> 
-            <div>
+            <div class="text_container">
+            <h1> Правда </h1>
             <p>${randomTrue[randomT]}</p>
             </div>
             <div>

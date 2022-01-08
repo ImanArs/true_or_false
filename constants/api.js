@@ -23,11 +23,16 @@ let FalseBtn = document.getElementById('FalseBtn')
 let task = document.getElementById('task')
 
 
+// console.log(random);
+
+// let randomButton = Math.floor(Math.random() * random )
+// console.log(randomButton);
+
 let randomT = Math.floor(Math.random() * randomTrue.length)
-console.log(randomTrue[randomT]);
+// console.log(randomTrue[randomT]);
 
 const randomF = Math.floor(Math.random() * randomFalse.length)
-console.log(randomFalse[randomF]);
+// console.log(randomFalse[randomF]);
 
 // let newTrue = randomT.map()
 // let numCallbackRuns = 0
