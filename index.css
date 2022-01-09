@@ -72,3 +72,19 @@ body{
         height: 600px;
     }
 }
+@media all and (max-width: 426px) {
+    body{
+        height: 100vh;
+    }
+    .intro{
+        height: 100vh;
+    }
+    .video {
+        height: 100vh;
+        overflow: hidden;
+    }
+    .video__media {
+        width: 1067px;
+        height: 600px;
+    }
+}
