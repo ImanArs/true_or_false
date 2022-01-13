@@ -11,7 +11,9 @@ class ModalF {
             <p>${randomFalse[randomF]}</p>
             </div>
             <div>
+                <a href="">
                 <button onClick="contentPage.render()">следующий ход</button>
+                </a>
             </div>
             </div 
         ` 

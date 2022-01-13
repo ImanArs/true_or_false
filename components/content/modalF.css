@@ -44,7 +44,7 @@
 
 .text_container{
     /* background: black; */
-    height: 300px;
+    height: 350px;
 }
 
 .container button:hover {
@@ -54,6 +54,38 @@
     /* box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db; */
 }
 
+@media all and (max-width: 821px) {
+    .container {
+        margin-top: 220px;
+        height: 500px;
+        width: 750px;
+    }
+    .container  h1  {
+        padding: 0 10px;
+        margin: 10px;
+        font-size: 34px;
+    }
+    .container  p  {
+        padding: 0 30px;
+        margin-top: 20px;
+        font-size: 34px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+    .container button {
+        width: 400px ;
+        font-size: 34px;
+    } 
+    .container button:focus {
+        border: 2px solid rgb(140, 100, 221);
+        background: rgba(255, 255, 255, 0.801);
+        color: rgb(140, 100, 221);
+    } 
+    /* .text_container{
+        width: 400px;
+        height: 300px;
+    } */
+}
 @media all and (max-width: 769px) {
     .container {
         margin-top: 80px;
@@ -80,9 +112,9 @@
 }
 @media all and (max-width: 426px) {
     .container {
-        margin-top: 80px;
+        margin-top: 180px;
         height: 380px;
-        width: 400px;
+        width: 380px;
     }
     .container  h1  {
         padding: 0 10px;
@@ -92,7 +124,7 @@
     .container  p  {
         padding: 0 30px;
         margin-top: 20px;
-        font-size: 24px;
+        font-size: 26px;
         color: rgb(255, 255, 255);
         font-weight: 500;
     }

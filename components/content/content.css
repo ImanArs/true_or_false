@@ -1,11 +1,14 @@
 
 .main{
     background: #fff;
+    /* background: rgba(248, 248, 248, 0.364); */
     border-radius: 25px;
     margin-top: 4rem;
     
 }
-
+p{
+    letter-spacing: 2px;
+}
 .text {
     margin-top: 20vh;
 }
@@ -95,6 +98,57 @@
     font-size: 38px;
 }
 
+@media all and (max-width: 821px) {
+    .main_title {
+        font-size: 28px;
+    }
+    h2{
+        padding: 20px 0;
+    }
+    p{
+        font-weight: bold;
+    }
+    .main_content {
+        width: 700px;
+        height: 40vh;
+        margin-top: 20px;
+    }
+    .right, .left  {
+        height: 25vh;
+    }
+    .left button {
+        letter-spacing: 2px;
+        font-size: 28px;
+        font-weight: bold;
+        width: 260px;
+        height: 100px;
+    }
+    .left button:focus {
+        background: #ffffff;
+        width: 140px;
+        height: 50px;
+        font-size: 24px;
+        border: 1px solid #11a66a;
+        color: #11a66a;
+    }
+    .right button {
+        letter-spacing: 2px;
+        font-size: 28px;
+        font-weight: bold;
+        width: 260px;
+        height: 100px;
+    }
+
+    .right button:focus {
+        background: #ffffff;
+        width: 140px;
+        height: 50px;
+        font-size: 24px;
+        border: 1px solid #1564a6;
+        color: #1564a6;
+    }
+
+}
 @media all and (max-width: 769px) {
     .main_content {
         width: 600px;
@@ -135,34 +189,52 @@
         text-align: center;
         font-size: 20px;
     }
+    h2{
+        padding: 20px 0;
+    }
+    p{
+        font-weight: bold;
+    }
     .main_content {
         width: 350px;
-        height: 45vh;
-        margin-top: 50px;
+        height: 30vh;
+        margin-top: 20px;
     }
     .left button {
         font-size: 24px;
         width: 160px;
         height: 60px;
     }
+    /* .left button:hover {
+        background: #11a66a;
+        width: 140px;
+        height: 50px;
+    } */
     .left button:focus {
         background: #ffffff;
-        width: 200px;
-        height: 75px;
-        font-size: 28px;
+        width: 140px;
+        height: 50px;
+        font-size: 24px;
         border: 1px solid #11a66a;
         color: #11a66a;
+    }
+    .right, .left  {
+        height: 15vh;
     }
     .right button {
         font-size: 24px;
         width: 160px;
         height: 60px;
     }
+    /* .right button:hover {
+        width: 140px;
+        height: 50px;
+    } */
     .right button:focus {
         background: #ffffff;
-        width: 200px;
-        height: 75px;
-        font-size: 28px;
+        width: 140px;
+        height: 50px;
+        font-size: 24px;
         border: 1px solid #1564a6;
         color: #1564a6;
     }

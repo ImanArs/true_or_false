@@ -11,7 +11,9 @@ class ModalT {
             <p>${randomTrue[randomT]}</p>
             </div>
             <div>
+                <a href="">
                 <button onClick="contentPage.render()">следующий ход</button>
+                </a>
             </div>
             </div 
         ` 

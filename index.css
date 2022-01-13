@@ -56,6 +56,38 @@ body{
     
 }
 
+@media all and (max-width: 1281px) {
+    body{
+        height: 100vh;
+    }
+    .intro{
+        height: 100vh;
+    }
+    .video {
+        height: 100vh;
+        overflow: hidden;
+    }
+    .video__media {
+        width: 1067px;
+        height: 600px;
+    }
+}
+@media all and (max-width: 821px) {
+    body{
+        height: 100vh;
+    }
+    .intro{
+        height: 100vh;
+    }
+    .video {
+        height: 100vh;
+        overflow: hidden;
+    }
+    .video__media {
+        width: 2220px;
+        height: 1250px;
+    }
+}
 @media all and (max-width: 769px) {
     body{
         height: 100vh;
@@ -84,7 +116,7 @@ body{
         overflow: hidden;
     }
     .video__media {
-        width: 1067px;
-        height: 600px;
+        width: 1689px;
+        height: 950px;
     }
 }
