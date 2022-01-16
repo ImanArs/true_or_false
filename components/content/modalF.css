@@ -142,3 +142,35 @@
         height: 330px;
     }
 }
+@media all and (max-width: 361px) {
+    .container {
+        margin-top: 180px;
+        height: 400px;
+        width: 340px;
+    }
+    .container  h1  {
+        padding: 0 10px;
+        margin: 10px;
+        font-size: 28px;
+    }
+    .container  p  {
+        padding: 0 30px;
+        margin-top: 20px;
+        font-size: 26px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+    .container button {
+        width: 300px ;
+        font-size: 30px;
+    } 
+    .container button:focus {
+        border: 2px solid rgb(140, 100, 221);
+        background: rgba(255, 255, 255, 0.801);
+        color: rgb(140, 100, 221);
+    } 
+    .text_container{
+        width: 360px;
+        height: 330px;
+    }
+}

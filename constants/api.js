@@ -28,3 +28,18 @@ let randomT = Math.floor(Math.random() * randomTrue.length)
 
 const randomF = Math.floor(Math.random() * randomFalse.length)
 
+const randomCounter = Math.floor(Math.random() * 6)
+
+let randomB = () =>{
+    
+    if ( randomCounter > 2 ) {
+        modalTPage.render()
+    } else {
+        modalFPage.render()
+    }
+
+}
+randomB()
+
+
+
