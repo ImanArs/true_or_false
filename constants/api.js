@@ -39,7 +39,5 @@ let randomB = () =>{
     }
 
 }
-randomB()
-
 
 
