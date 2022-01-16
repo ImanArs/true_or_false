@@ -113,8 +113,8 @@
 @media all and (max-width: 426px) {
     .container {
         margin-top: 180px;
-        height: 380px;
-        width: 380px;
+        height: 400px;
+        width: 360px;
     }
     .container  h1  {
         padding: 0 10px;
@@ -128,13 +128,17 @@
         color: rgb(255, 255, 255);
         font-weight: 500;
     }
+    .container button {
+        width: 300px ;
+        font-size: 30px;
+    } 
     .container button:focus {
         border: 2px solid rgb(140, 100, 221);
         background: rgba(255, 255, 255, 0.801);
         color: rgb(140, 100, 221);
     } 
     .text_container{
-        width: 400px;
-        /* height: 300px; */
+        width: 360px;
+        height: 330px;
     }
 }

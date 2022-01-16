@@ -1,7 +1,6 @@
 class ModalF {
     // closeShoppingPage() { 
-    //     ROOT_SHOPPING.innerHTML = '' 
-    // } 
+
     render() { 
         
         const html = ` 

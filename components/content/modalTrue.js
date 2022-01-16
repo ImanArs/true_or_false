@@ -1,7 +1,5 @@
 class ModalT {
-    // closeShoppingPage() { 
-    //     ROOT_SHOPPING.innerHTML = '' 
-    // } 
+
     render() { 
         
         const html = ` 
@@ -22,7 +20,3 @@ class ModalT {
     } 
 }
 const modalTPage = new ModalT()
-            // <tr> 
-            // <td class="shopping__element--name">Сумма: </td> 
-            // <td class="shopping__element--price">${sumCatalog.toLocaleString()} сом</td> 
-            // </tr> 

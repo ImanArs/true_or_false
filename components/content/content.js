@@ -27,11 +27,10 @@ class Content {
                 <button class="FalseBtn" id="FalseBtn" onclick="modalFPage.render()">действие</button>
                 </div>
                 </div>
-                    <button id="randomBtn" > случайно </button>
+                    <button id="randomBtn" onclick="alert('скоро')" > случайно </button>
                 </div>
             </div>   
         `
-        // onClick="alert=(no)"
         ROOT_CONTENT.innerHTML = html
         }
         

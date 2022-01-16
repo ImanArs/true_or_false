@@ -23,50 +23,8 @@ let FalseBtn = document.getElementById('FalseBtn')
 let task = document.getElementById('task')
 let randomBtn = document.getElementById('randomBtn')
 
-// let randomBtn = Math.floor(Math.random(trueBtn + FalseBtn) )
-//console.log(randomBtn);
-
-
 
 let randomT = Math.floor(Math.random() * randomTrue.length)
 
 const randomF = Math.floor(Math.random() * randomFalse.length)
 
-// let randomlyT = randomFalse.map((item) => {
-//     return ( 
-//         randomF[randomFalse]
-// )});
-// console.log(randomlyT);
-
-
-
-
-
-// //////////////////////////////////////////////////////////
-
-// console.log(random);
-// let randomButton = Math.floor(Math.random() * random )
-// console.log(randomButton);
-
-// console.log(randomTrue[randomT]);
-
-// console.log(randomFalse[randomF]);
-
-// let newTrue = randomT.map()
-// let numCallbackRuns = 0
-
-
-// randomTrue.forEach((element) => {
-    //     // console.log(element)
-    //     numCallbackRuns++
-    //   })
-    
-    //   console.log("numCallbackRuns: ", numCallbackRuns)
-    
-    // let trueBtn = document.getElementById('trueBtn')
-        // trueBtn.addEventListener("click", function() {
-        //     console.log("Кнопка нажата.");
-        //   });
-    
-
-// let buttonT = document.querySelector("trueBtn");

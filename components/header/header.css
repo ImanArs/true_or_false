@@ -1,4 +1,6 @@
 
 .main_header{
-    background: blanchedalmond;
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+    position: absolute;
 }

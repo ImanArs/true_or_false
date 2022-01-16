@@ -9,9 +9,9 @@
 p{
     letter-spacing: 2px;
 }
-.text {
+/* .text {
     margin-top: 20vh;
-}
+} */
 
 .main_content {
     width: 700px;
@@ -98,6 +98,14 @@ p{
     font-size: 38px;
 }
 
+@media all and (max-width: 1281px) {
+    .main{
+        margin-top: 10rem;
+    }
+    .main_title {
+        font-size: 28px;
+    }
+}
 @media all and (max-width: 821px) {
     .main_title {
         font-size: 28px;

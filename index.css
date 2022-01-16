@@ -5,9 +5,7 @@
 }
 body{
     height: 79vh;
-    /* background-image: linear-gradient(to bottom, #051937, #004770, #007c9e, #00b4b7, #12ebba); */
-    /* background-image: url(/images/confetti.mp4); */
-    /* background-size: cover; */
+
 }
 
 .intro {
@@ -60,16 +58,15 @@ body{
     body{
         height: 100vh;
     }
+    .mobile {
+        background-image: linear-gradient(to bottom, #051937, #004770, #007c9e, #00b4b7, #12ebba);
+
+    }
+    video{
+        display: none;
+    }
     .intro{
         height: 100vh;
-    }
-    .video {
-        height: 100vh;
-        overflow: hidden;
-    }
-    .video__media {
-        width: 1067px;
-        height: 600px;
     }
 }
 @media all and (max-width: 821px) {
@@ -79,13 +76,8 @@ body{
     .intro{
         height: 100vh;
     }
-    .video {
-        height: 100vh;
-        overflow: hidden;
-    }
-    .video__media {
-        width: 2220px;
-        height: 1250px;
+    video{
+        display: none;
     }
 }
 @media all and (max-width: 769px) {
@@ -95,13 +87,8 @@ body{
     .intro{
         height: 100vh;
     }
-    .video {
-        height: 100vh;
-        overflow: visible;
-    }
-    .video__media {
-        width: 1067px;
-        height: 600px;
+    video{
+        display: none;
     }
 }
 @media all and (max-width: 426px) {
@@ -111,12 +98,7 @@ body{
     .intro{
         height: 100vh;
     }
-    .video {
-        height: 100vh;
-        overflow: hidden;
-    }
-    .video__media {
-        width: 1689px;
-        height: 950px;
+    video{
+        display: none;
     }
 }
